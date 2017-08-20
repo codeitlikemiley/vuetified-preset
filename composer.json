@@ -1,0 +1,52 @@
+{
+    "name": "codeitlikemiley/vuetified",
+    "description": "Front End Preset Using Vuetify, For Real Time Apps",
+    "keywords": [
+        "laravel",
+        "vuetify",
+        "vuetified",
+        "preset",
+        "laravel-passport",
+        "laravel-echo-server",
+        "laravel-echo",
+        "vue",
+        "socket.io"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "Uriah A. Galang",
+        "email": "codeitlikemiley@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.5.*",
+        "doctrine/dbal": "^2.6",
+        "gladcodes/keygen": "^1.1",
+        "barryvdh/laravel-cors": "^0.9.2",
+        "cviebrock/eloquent-sluggable": "^4.2",
+        "laravel/passport": "^3.0",
+        "predis/predis": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeitlikemiley\\Vuetified\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vuetified\\Providers\\VuetifiedServiceProvider",
+                "Vuetified\\Providers\\PassportAuthServiceProvider",
+                "Vuetified\\Providers\\SocialAuthServiceProvider",
+                "Vuetified\\Providers\\BroadcastServiceProvider"
+            ],
+            "aliases": {
+                "Keygen" : "Keygen\\Keygen",
+                "Vuetified" : "Vuetified\\Vuetified"
+            }
+        }
+    },
+    "minimum-stability": "dev"
+}
