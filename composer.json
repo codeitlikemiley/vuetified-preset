@@ -38,9 +38,9 @@
         "laravel": {
             "providers": [
                 "Codeitlikemiley\\Vuetified\\Providers\\VuetifiedServiceProvider",
-                "Codeitlikemiley\\Vuetified\\PassportAuthServiceProvider",
-                "Codeitlikemiley\\Vuetified\\SocialAuthServiceProvider",
-                "Codeitlikemiley\\Vuetified\\BroadcastServiceProvider"
+                "Codeitlikemiley\\Vuetified\\Providers\\PassportAuthServiceProvider",
+                "Codeitlikemiley\\Vuetified\\Providers\\SocialAuthServiceProvider",
+                "Codeitlikemiley\\Vuetified\\Providers\\BroadcastServiceProvider"
             ],
             "aliases": {
                 "Keygen" : "Keygen\\Keygen",
