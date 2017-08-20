@@ -31,8 +31,8 @@ class VuetifiedServiceProvider extends ServiceProvider
         __DIR__.'/../../database/migrations' => database_path('migrations')
         ], 'migrations');
         /* add Middleware Alias */
-        // $this->addMiddlewareAlias('api.cors', \Barryvdh\Cors\HandleCors::class);
-        // $this->addMiddlewareAlias('web.token', \Laravel\Passport\Http\Middleware\CreateFreshApiToken::class);
+        $this->addMiddlewareAlias('api.cors', \Barryvdh\Cors\HandleCors::class);
+        $this->addMiddlewareAlias('web.token', \Laravel\Passport\Http\Middleware\CreateFreshApiToken::class);
         /* add Routes */
         $this->defineRoutes();
         /* Listen To User Class */
@@ -74,8 +74,8 @@ class VuetifiedServiceProvider extends ServiceProvider
         // controller namespace. After that we will load the Specific routes file.
         if (! $this->app->routesAreCached()) {
             Route::group([
-                'middleware' => ['api','api.cors'],
-                'namespace' => 'Vuetified\Http\Controllers\Api\Auth'],
+                'middleware' => ['api'],
+                'namespace' => 'Codeitlikemiley\Vuetified\Http\Controllers\Api\Auth'],
                 function ($router) {
                     require __DIR__.'/../Routes/api.php';
                 }
@@ -109,7 +109,7 @@ class VuetifiedServiceProvider extends ServiceProvider
         ];
 
         foreach ($services as $key => $value) {
-            $this->app->singleton('Vuetified\\'.$key, 'Vuetified\\'.$value);
+            $this->app->singleton('Codeitlikemiley\\Vuetified\\'.$key, 'Codeitlikemiley\\Vuetified\\'.$value);
         }
     }
  
