@@ -44,7 +44,7 @@ class VuetifiedServiceProvider extends ServiceProvider
     public function register()
     {
         if (! class_exists('Vuetified')) {
-            class_alias('Vuetified\Vuetified', 'Vuetified');
+            class_alias('Codeitlikemiley\Vuetified\Vuetified', 'Vuetified');
         }
 
         if ($this->app->runningInConsole()) {
