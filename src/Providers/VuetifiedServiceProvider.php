@@ -31,8 +31,8 @@ class VuetifiedServiceProvider extends ServiceProvider
         __DIR__.'/../../database/migrations' => database_path('migrations')
         ], 'migrations');
         /* add Middleware Alias */
-        $this->addMiddlewareAlias('api.cors', \Barryvdh\Cors\HandleCors::class);
-        $this->addMiddlewareAlias('web.token', \Laravel\Passport\Http\Middleware\CreateFreshApiToken::class);
+        // $this->addMiddlewareAlias('api.cors', \Barryvdh\Cors\HandleCors::class);
+        // $this->addMiddlewareAlias('web.token', \Laravel\Passport\Http\Middleware\CreateFreshApiToken::class);
         /* add Routes */
         $this->defineRoutes();
         /* Listen To User Class */
