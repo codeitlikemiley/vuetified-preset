@@ -37,10 +37,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vuetified\\Providers\\VuetifiedServiceProvider",
-                "Vuetified\\Providers\\PassportAuthServiceProvider",
-                "Vuetified\\Providers\\SocialAuthServiceProvider",
-                "Vuetified\\Providers\\BroadcastServiceProvider"
+                "Codeitlikemiley\\Vuetified\\Providers\\VuetifiedServiceProvider",
+                "Codeitlikemiley\\Vuetified\\Providers\\PassportAuthServiceProvider",
+                "Codeitlikemiley\\Vuetified\\Providers\\SocialAuthServiceProvider",
+                "Codeitlikemiley\\Vuetified\\Providers\\BroadcastServiceProvider"
             ],
             "aliases": {
                 "Keygen" : "Keygen\\Keygen",
@@ -48,5 +48,5 @@
             }
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
