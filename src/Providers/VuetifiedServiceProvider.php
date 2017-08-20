@@ -11,7 +11,7 @@ use Codeitlikemiley\Vuetified\Console\Commands\GenerateEchoKeys;
 use Codeitlikemiley\Vuetified\Console\Presets\PresetCommand;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Route;
+use Illuminate\Routing\Router;
 
 
 class VuetifiedServiceProvider extends ServiceProvider
