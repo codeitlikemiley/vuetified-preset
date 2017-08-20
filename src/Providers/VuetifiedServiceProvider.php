@@ -11,8 +11,6 @@ use Codeitlikemiley\Vuetified\Console\Commands\GenerateEchoKeys;
 use Codeitlikemiley\Vuetified\Console\Presets\PresetCommand;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Routing\Router;
-
 
 class VuetifiedServiceProvider extends ServiceProvider
 {
@@ -60,6 +58,15 @@ class VuetifiedServiceProvider extends ServiceProvider
         }
 
         $this->registerServices();
+    }
+
+    protected function addMiddlewareAlias($name, $class)
+    {
+        $router = $this->app['router'];
+        if (method_exists($router, 'aliasMiddleware')) {
+            return $router->aliasMiddleware($name, $class);
+        }
+        return $router->middleware($name, $class);
     }
 
         /**
