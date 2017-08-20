@@ -1,6 +1,7 @@
 <?php
 
-namespace Vuetified\Traits;
+namespace Codeitlikemiley\Vuetified\Traits;
+
 use Keygen;
 
 trait UserMutator

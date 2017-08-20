@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Console\Commands;
+namespace Codeitlikemiley\Vuetified\Console\Commands;
 
 use Illuminate\Console\Command;
 

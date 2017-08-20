@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Console\Presets;
+namespace Codeitlikemiley\Vuetified\Console\Presets;
 
 use InvalidArgumentException;
 use Illuminate\Console\Command;

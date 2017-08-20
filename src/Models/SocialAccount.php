@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Models;
+namespace Codeitlikemiley\Vuetified\Models;
 
 use App\User;
 use Illuminate\Database\Eloquent\Model;

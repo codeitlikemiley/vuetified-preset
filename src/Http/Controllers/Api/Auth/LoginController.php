@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Http\Controllers\Api\Auth;
+namespace Codeitlikemiley\Vuetified\Http\Controllers\Api\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -8,8 +8,8 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use Laravel\Passport\Client;
-use Vuetified\Rules\MustBeEmailOrUsername;
-use Vuetified\Traits\IssueTokenTrait;
+use Codeitlikemiley\Vuetified\Rules\MustBeEmailOrUsername;
+use Codeitlikemiley\Vuetified\Traits\IssueTokenTrait;
 
 class LoginController extends Controller
 {

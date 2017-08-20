@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Providers;
+namespace Codeitlikemiley\Vuetified\Providers;
 
 use Laravel\Passport\Passport;
 use Illuminate\Support\Facades\Gate;

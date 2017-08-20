@@ -1,10 +1,10 @@
 <?php
 
-namespace Vuetified\Configuration;
+namespace Codeitlikemiley\Vuetified\Configuration;
 
-use Vuetified\Vuetified;
+use Codeitlikemiley\Vuetified\Vuetified;
 use Illuminate\Support\Facades\Auth;
-use Vuetified\Contracts\InitialFrontendState;
+use Codeitlikemiley\Vuetified\Contracts\InitialFrontendState;
 
 trait ProvidesScriptVariables
 {

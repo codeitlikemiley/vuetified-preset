@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Configuration;
+namespace Codeitlikemiley\Vuetified\Configuration;
 
 
 trait ManageModelOptions

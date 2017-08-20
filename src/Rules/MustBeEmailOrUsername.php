@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Rules;
+namespace Codeitlikemiley\Vuetified\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use App\User;

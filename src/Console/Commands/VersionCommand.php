@@ -1,8 +1,8 @@
 <?php
 
-namespace Vuetified\Console\Commands;
+namespace Codeitlikemiley\Vuetified\Console\Commands;
 
-use Vuetified\Vuetified;
+use Codeitlikemiley\Vuetified\Vuetified;
 use Illuminate\Console\Command;
 
 class VersionCommand extends Command

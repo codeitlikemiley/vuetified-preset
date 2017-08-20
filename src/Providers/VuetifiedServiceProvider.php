@@ -1,14 +1,14 @@
 <?php
 
-namespace Vuetified\Providers;
+namespace Codeitlikemiley\Vuetified\Providers;
 
-use Vuetified\Vuetified;
-use Vuetified\Observers\UserObserver;
-use Vuetified\Console\Commands\VersionCommand;
-use Vuetified\Console\Commands\GenerateEchoAppID;
-use Vuetified\Console\Commands\GenerateEchoAppKey;
-use Vuetified\Console\Commands\GenerateEchoKeys;
-use Vuetified\Console\Presets\PresetCommand;
+use Codeitlikemiley\Vuetified\Vuetified;
+use Codeitlikemiley\Vuetified\Observers\UserObserver;
+use Codeitlikemiley\Vuetified\Console\Commands\VersionCommand;
+use Codeitlikemiley\Vuetified\Console\Commands\GenerateEchoAppID;
+use Codeitlikemiley\Vuetified\Console\Commands\GenerateEchoAppKey;
+use Codeitlikemiley\Vuetified\Console\Commands\GenerateEchoKeys;
+use Codeitlikemiley\Vuetified\Console\Presets\PresetCommand;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Auth;
 

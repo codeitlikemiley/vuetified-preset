@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified;
+namespace Codeitlikemiley\Vuetified;
 
 class Vuetified
 {

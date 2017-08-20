@@ -1,15 +1,15 @@
 <?php
 
-namespace Vuetified\Http\Controllers\Api\Auth;
+namespace Codeitlikemiley\Vuetified\Http\Controllers\Api\Auth;
 
 use App\Http\Controllers\Controller;
-use Vuetified\Models\SocialAccount;
+use Codeitlikemiley\Vuetified\Models\SocialAccount;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
 use Laravel\Passport\Client;
-use Vuetified\Traits\IssueTokenTrait;
+use Codeitlikemiley\Vuetified\Traits\IssueTokenTrait;
 
 class SocialAuthController extends Controller
 {

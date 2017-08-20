@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Configuration;
+namespace Codeitlikemiley\Vuetified\Configuration;
 
 use Closure;
 use Illuminate\Support\Str;

@@ -1,13 +1,13 @@
 <?php
 
-namespace Vuetified\Http\Controllers\Api\Auth;
+namespace Codeitlikemiley\Vuetified\Http\Controllers\Api\Auth;
 
 use App\Http\Controllers\Controller;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Laravel\Passport\Client;
-use Vuetified\Traits\IssueTokenTrait;
+use Codeitlikemiley\Vuetified\Traits\IssueTokenTrait;
 
 class RegisterController extends Controller
 {

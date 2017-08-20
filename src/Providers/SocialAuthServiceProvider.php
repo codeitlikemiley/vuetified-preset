@@ -1,8 +1,8 @@
 <?php
 
-namespace Vuetified\Providers;
+namespace Codeitlikemiley\Vuetified\Providers;
 
-use Vuetified\Http\Grant\SocialGrant;
+use Codeitlikemiley\Vuetified\Http\Grant\SocialGrant;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Passport\Bridge\RefreshTokenRepository;
 use Laravel\Passport\Bridge\UserRepository;

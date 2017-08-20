@@ -38,15 +38,16 @@
         "laravel": {
             "providers": [
                 "Codeitlikemiley\\Vuetified\\Providers\\VuetifiedServiceProvider",
-                "Codeitlikemiley\\Vuetified\\Providers\\PassportAuthServiceProvider",
-                "Codeitlikemiley\\Vuetified\\Providers\\SocialAuthServiceProvider",
-                "Codeitlikemiley\\Vuetified\\Providers\\BroadcastServiceProvider"
+                "Codeitlikemiley\\Vuetified\\PassportAuthServiceProvider",
+                "Codeitlikemiley\\Vuetified\\SocialAuthServiceProvider",
+                "Codeitlikemiley\\Vuetified\\BroadcastServiceProvider"
             ],
             "aliases": {
                 "Keygen" : "Keygen\\Keygen",
-                "Vuetified" : "Vuetified\\Vuetified"
+                "Vuetified" : "Codeitlikemiley\\Vuetified\\Vuetified"
             }
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

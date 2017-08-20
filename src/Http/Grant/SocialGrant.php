@@ -1,8 +1,8 @@
 <?php 
 
-namespace Vuetified\Http\Grant;
+namespace Codeitlikemiley\Vuetified\Http\Grant;
 
-use Vuetified\Models\SocialAccount;
+use Codeitlikemiley\Vuetified\Models\SocialAccount;
 use Illuminate\Http\Request;
 use Laravel\Passport\Bridge\User;
 use League\OAuth2\Server\Entities\ClientEntityInterface;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Vuetified;
+namespace Codeitlikemiley\Vuetified;
 
-use Vuetified\Contracts\InitialFrontendState as Contract;
+use Codeitlikemiley\Vuetified\Contracts\InitialFrontendState as Contract;
 use App\User;
 
 class InitialFrontendState implements Contract

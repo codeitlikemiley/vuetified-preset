@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Contracts;
+namespace Codeitlikemiley\Vuetified\Contracts;
 
 interface InitialFrontendState
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuetified\Providers;
+namespace Codeitlikemiley\Vuetified\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Broadcast;

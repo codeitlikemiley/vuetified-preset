@@ -1,8 +1,8 @@
 <?php
 
-namespace Vuetified\Observers;
+namespace Codeitlikemiley\Vuetified\Observers;
 
-use Vuetified\Vuetified;
+use Codeitlikemiley\Vuetified\Vuetified;
 use Illuminate\Database\Eloquent\Model;
 use Keygen;
 use Hash;
